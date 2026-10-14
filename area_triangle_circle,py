@@ -1,0 +1,9 @@
+rad = float(input("Enter Radius : "))
+ht = float(input("Enter Height : "))
+base = float(input("Enter Base : "))
+
+tri = 3.14 * rad ** 2
+cir = 0.5 * ht * base 
+
+print("Area of the Circle is : " , tri)
+print("Area of the Triangle is : " , cir)
